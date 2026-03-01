@@ -33,21 +33,30 @@
 
 ---
 
-## 📚 教程目录
+## 基本概念
 
-### 基础技巧系列
+### SOUL\.md
+
+| 文件 | 说明 |
+|------|------|
+| `SOUL.md` | 机器人的人设 |
+| `USER.md` | 关于你的信息 — 姓名、偏好、语言等等，让SOUL识别你认识你 |
+| `MEMORY.md` | 长期记忆 — 它应该一直记住的事 |
+| `HEARTBEAT.md` | 待办清单 — 机器人定期检查并自主执行 |
+
+## 📚 基础系列
 
 ### SOUL\.md仓库
 
-- [SOUL.md模板仓库](/SOUL/README.md)
+- 搜集了大量SOUL.md 配置，[SOUL.md模板仓库](/SOUL/README.md)
 
-
+<!--
 ### 即将推出
 
-- **03** - XX
+ - **03** - XX
 - **04** - XX
 - **05** - XX
-- **06** - XX
+- **06** - XX -->
 
 ---
 
@@ -57,16 +66,46 @@
 
 #### 🔰 新手路径（推荐顺序）
 
-1. **从文档技巧开始** → [教程01](./tutorials/01-xx)
-   -xx
+<!-- 1. **从文档技巧开始** → [教程01](./tutorials/01-xx)
+   - xx
 
 2. **探索GitHub工具** → [教程02](./tutorials/02-xx/)
-   - xx
+   - xx -->
 
 #### 💼 进阶路径（按需选择）
 
-1. **XX** → [教程02](./tutorials/01-xx/)
-   - xx
+1. **集成指南**
+   - [OpenClaw（原Moltbot、Clawdbot）集成飞书](https://help.aliyun.com/zh/simple-application-server/use-cases/openclaw-integrated-fly-book)
+   - [OpenClaw（原Moltbot、Clawdbot）企业微信集成](https://help.aliyun.com/zh/simple-application-server/use-cases/openclaw-enterprise-wechat-integration)
+   - [通过OpenClaw（原Moltbot、Clawdbot）调用IMessage](https://help.aliyun.com/zh/simple-application-server/use-cases/invoking-imessage-via-openclaw)
+   - [玩转OpenClaw指南：阿里云+本地部署+6大神级用法，普通人也能10秒上手解锁AI Agent助手生产力，效率翻倍](https://developer.aliyun.com/article/1713540)
+
+#### 📺 视频教程
+
+   - [【傅盛×三万】直播之夜：断腿养伤14天，养出了一个“AI天团”](https://www.bilibili.com/video/BV1XNAhzcE5x/)
+
+#### 🔩 高级技巧
+
+1. 飞书相关
+   - [OpenClaw 飞书API调用次数耗尽解决办法](https://xx0a.com/blog/openclaw-feishu)
+飞书的官方插件默认每分钟调用一次/open-apis/bot/v3/info接口，24小时调用1440次，而普通飞书账号每个月限额调用10000次API，所以几天就会耗尽
+
+##### ❓ 常见问题解答 (FAQ)
+
+  - 为什么OpenClaw连接不了浏览器？
+OpenClaw使用CDP连接浏览器，并且通过接口指挥浏览器执行各种操作，在实际使用中你首先需要安装OpenClaw Browser Relay这个插件，然后在你要操作的网页上点击这个插件的按钮，按钮出现ON即表示插件已经在这个页面上打开了CDP。但是如果你的OpenClaw没有安装在本地，这就牵涉到远程IP见的通信，而由于种种原因，Chrome的插件是无法监听0.0.0.0ip的（只能监听在localhost上），所以你可以尝试：使用特殊的参数打开chrome，例如`chrome --remote-debugging-port=18792 --remote-debugging-address=0.0.0.0`，然后开启插件，再通过`lsof -i :18792`查看chrome有没有监听在0.0.0.0上，如果还是没有的话，可以使用socat进行端口转发，把0.0.0.0:18792转发到127.0.0.1:18792上，命令如下`socat TCP-LISTEN:18792,fork,reuseaddr TCP:127.0.0.1:18792`
+
+--- 
+
+### OpenClaw的变现、商业化和企业级应用（怎么赚钱 or 帮你的公司赚钱）
+
+#### 个人变现
+
+  - 上门代安装OpenClaw，500一次🤣
+
+#### 小团队
+
+#### 中大企业
 
 ---
 
@@ -166,23 +205,62 @@
 
 ## 🔗 相关资源
 
+### 模型推荐
+
+### 推荐模型
+
+| 模型 | 厂商 | 一句话 | 购买链接 | 推荐程度 |
+|------|------|------|-----|-----|
+| `qwen3.5-plus` | 阿里通义 | 开源模型国产首选，中文能力强 | 首月 7.9 元起 [点击购买](https://www.aliyun.com/benefit/ai/aistar?clubBiz=subTask..12408319..10263..) |  🌟🌟🌟🌟🌟 |
+| `GLM-v5` | 智谱AI | 高性价比之选 | 49元/月起，每天早上10点限量抢购 [点击购买](https://www.bigmodel.cn/glm-coding?ic=KY1ACMPOVX) |  🌟🌟🌟🌟 |
+| `kimi-k2.5` | 月之暗面 | 超长上下文 |  |  🌟🌟🌟 |
+| `minimax-m2.1` | MiniMax | 对话创作出色 |  |  🌟🌟🌟 |
+| `claude-sonnet-4-6` | Anthropic | 性能均衡 | claude.ai | 🌟🌟🌟
+| `claude-opus-4-6` | Anthropic | 旗舰能力最强 | |🌟🌟🌟 |
+| `deepseek-v3` | DeepSeek | 高性价比之选 |  |  🌟🌟 |
+
+- 注意：推荐程度仅为个人评价，仅限参考
+- 除此以外，还可以通过一些特殊方法，嫁接OpenClaw使其使用Google的Antigravity模型，但近期大量发生封号事件，不再建议使用
+
 ### 官方资源
 
+- ClawHub OpenClaw生态的“应用商店”和“技能市场” https://clawhub.ai/ ⚠️注意：近期有媒体发现在clawhub里有恶意技能会窃取用户数据，使用时一定要小心
+**TOP5的Skill介绍：**
+  - Ontology 为AI构建了结构化知识图谱，提升复杂任务处理能力
+  - self-improving-agent 能让AI通过经验迭代，实现自我优化
+  - gog 可自动化Google Workspace全流程操作
+  - tavily-search 面向AI优化的网页搜索功能
+  - find-skills 让AI具备查找有没有现成的Skill可以解决问题的能力
 
 ### 推荐工具
 
 
 ### 学习资源
-
-
+ - Awesome OpenClaw Usecases 搜集了大量的OpenClaw使用场景 https://github.com/hesamsheikh/awesome-openclaw-usecases
+ - Awesome OpenClaw Tutorial 从零开始打造你的AI工作助手：最全面的中文教程，涵盖安装、配置、实战案例和避坑指南 https://github.com/xianyu110/awesome-openclaw-tutorial
+ - OpenClaw Showcase 官方搜集了大量正在使用OpenClaw的用户的真实使用场景 https://openclaw.ai/showcase
+ - OpenClaw 101 OpenClaw 101 是一个开源的 OpenClaw 资源聚合站，旨在帮助中文用户快速上手 OpenClaw https://openclaw101.dev/
 
 ### 相关项目
 
-- [OpenKita 一个你睡觉时还在变强的 AI Agent](https://github.com/openakita/openakita/blob/main/README_CN.md)
+- OpenKita 一个你睡觉时还在变强的 AI Agent https://github.com/openakita/openakita/blob/main/README_CN.md
+- miniclaw 纯C实现的类OpenClaw，精简、小巧、省电，能跑在30元的 ESP32 USB开发板上 https://github.com/memovai/mimiclaw
+
+## Vibe Coding 相关
+
+### 工具介绍
+- Warp AI时代的Terminal终端工具 http://warp.dev/
+- Shellman 在网页中运行多个Vibe Coding Agent https://www.shellman.dev/
+  
+---
+
+## 推荐阅读
+
+### Jason Zhang 的个人博客，讲了许多使用OpenClaw的经验和个人体会 https://junxinzhang.com/
 
 ---
 
-## 📞 联系方式
+<!-- ## 📞 联系方式
 
 ### 项目维护者
 
@@ -194,9 +272,7 @@
 
 - 📮 通过 [Issues](https://github.com/scourgen/OpenClaw-CN/issues) 提问
 - 💬 在 [Discussions](https://github.com/scourgen/OpenClaw-CN/discussions) 讨论
-- 🐦 关注我们的更新
-
----
+- 🐦 关注我们的更新 -->
 
 <!-- ## 📄 许可证
 
@@ -213,6 +289,26 @@
 - 📌 使用相同的开源协议
 
 --- -->
+
+
+## 社区
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="content/media/wechat_qr.jpg" width="200" alt="微信二维码" /><br/>
+      <b>小助理微信</b><br/>
+    </td>
+    <td>
+      <b>微信群：</b><br/><br/>
+      <b>OpenClaw使用交流</b>: 扫码加小助理微信后让拉你进群<br/>
+      <b>OpenClaw商业和企业化</b>: 仅限邀请，暂不开放<br/>
+      <b>OpenClaw-CN维护</b>: 仅限邀请，暂不开放<br/>
+      <b>VibeCoding交流</b>: 仅限邀请，暂不开放<br/>
+      <b>邮箱</b> — <a href="mailto:scourgen@gmail.com">scourgen@gmail.com</a>
+    </td>
+  </tr>
+</table>
 
 ## ⭐ Star History
 
