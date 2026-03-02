@@ -367,3 +367,31 @@ OpenClaw使用CDP连接浏览器，并且通过接口指挥浏览器执行各种
 Made with ❤️ by Scourgen
 
 </div>
+---
+
+## 📚 最新教程更新 (2026-03-02)
+
+### 🆕 新增内容
+
+| 类型 | 文档 | 说明 |
+|------|------|------|
+| 📖 **FAQ** | [常见问题解答](./docs/faq.md) | 覆盖部署、频道集成、自动化、费用等 12+ 常见问题 |
+| 🚀 **部署指南** | [完整部署教程](./docs/deployment-guide.md) | 阿里云、本地、MaxClaw 三种部署方式详细步骤 |
+| 💡 **实战案例** | [六大神级用法](./usecases/6-advanced-usecases.md) | 赛博记账员、发票整理、暴躁包工头等实战教程 |
+
+### 📋 教程体系
+
+```
+OpenClaw-CN/
+├── tutorials/           # 基础教程
+│   ├── getting-started/ # 快速入门
+│   └── automation/      # 自动化
+├── docs/               # 参考文档
+│   ├── faq.md          # ❗ 新增：常见问题
+│   ├── deployment-guide.md  # ❗ 新增：部署指南
+│   └── translation/    # 翻译文档索引
+├── usecases/           # 💡 新增：实战案例
+│   └── 6-advanced-usecases.md
+└── SOUL/               # SOUL 模板
+```
+
