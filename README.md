@@ -218,10 +218,25 @@
 
 ### 学习资源
 
-- [Awesome OpenClaw Usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) - 搜集了大量的 OpenClaw 使用场景
-- [Awesome OpenClaw Tutorial](https://github.com/xianyu110/awesome-openclaw-tutorial) - 从零开始打造你的 AI 工作助手
-- [OpenClaw Showcase](https://openclaw.ai/showcase) - 官方搜集的真实使用场景
-- [OpenClaw 101](https://openclaw101.dev/) - 中文资源聚合站，帮助快速上手
+#### 📚 精选教程与案例（15 个）
+
+| # | 资源名称 | 简介 | 链接 |
+|---|---------|------|------|
+| 1 | **Awesome OpenClaw Usecases** | 社区精选 34+ 实战案例：Reddit 摘要、YouTube 每日简报、X 账号分析等 | [GitHub](https://github.com/hesamsheikh/awesome-openclaw-usecases) |
+| 2 | **Awesome OpenClaw Tutorial** | 29 万字中文教程，70+ 案例，57+ 截图，7 天学习路径 | [GitHub](https://github.com/xianyu110/awesome-openclaw-tutorial) |
+| 3 | **OpenClaw Showcase** | 官方真实案例：邮件管理、日历同步、智能提醒、自动创建 Issue 等 | [Showcase](https://openclaw.ai/showcase) |
+| 4 | **OpenClaw 101** | 中文资源聚合站，快速上手指南、技能市场导航 | [OpenClaw101](https://openclaw101.dev/) |
+| 5 | **Daily Reddit Digest** | 自动汇总关注的 subreddit，基于偏好生成个性化摘要 | [用例](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-reddit-digest.md) |
+| 6 | **Daily YouTube Digest** | 每日追踪关注频道的新视频，不错过任何更新 | [用例](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-youtube-digest.md) |
+| 7 | **Multi-Source Tech News** | 聚合 109+ 科技新闻源（RSS/Twitter/GitHub），智能评分推送 | [用例](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-source-tech-news-digest.md) |
+| 8 | **YouTube Content Pipeline** | 自动化视频选题、调研、追踪，一站式内容创作工作流 | [用例](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/youtube-content-pipeline.md) |
+| 9 | **Multi-Agent Content Factory** | Discord 多 Agent 协作：调研、写作、封面设计 Agent 分工 | [用例](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/content-factory.md) |
+| 10 | **Autonomous Game Dev** | 教育游戏全生命周期：需求→开发→文档→Git 提交 | [用例](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/autonomous-game-dev-pipeline.md) |
+| 11 | **Podcast Production Pipeline** | 播客全流程：嘉宾调研→大纲→Show Notes→社媒推广 | [用例](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/podcast-production-pipeline.md) |
+| 12 | **n8n Workflow Orchestration** | 通过 Webhooks 委托 n8n 执行 API，Agent 不接触凭证 | [用例](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/n8n-workflow-orchestration.md) |
+| 13 | **Self-Healing Home Server** | 24 小时基础设施 Agent，SSH+ 自动修复+Cron 任务 | [用例](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/self-healing-home-server.md) |
+| 14 | **成本计算器** | 本地/云端部署成本对比，省钱攻略（节省 64%-96%） | [计算器](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/main/COST-CALCULATOR.md) |
+| 15 | **学习路径指南** | 7 天掌握核心技能，每天 2 小时，3 个实战项目 | [学习路径](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/main/LEARNING-PATH.md) |
 
 ### 相关项目
 
