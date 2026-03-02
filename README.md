@@ -2,16 +2,15 @@
     <img width="512" src="content/media/avatar.jpg">
 </p>
 
-# OpenClaw-CN
-
 <div align="center">
 
-**OpenClaw 中文技术教程与资源聚合**
+# **OpenClaw 中文技术教程与资源聚合**
 
 一站式 OpenClaw 中文学习平台 · 实战教程 · 配置模板 · 自动化案例
 
 [MIT License](LICENSE) · [Issues](https://github.com/scourgen/OpenClaw-CN/issues) · [社区微信群](#社区)
 
+[![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![](https://img.shields.io/github/issues/scourgen/OpenClaw-CN.svg)](https://github.com/scourgen/OpenClaw-CN/issues)  [![](https://img.shields.io/github/forks/scourgen/OpenClaw-CN.svg)](https://github.com/scourgen/OpenClaw-CN/network) [![](https://img.shields.io/github/stars/scourgen/OpenClaw-CN.svg)](https://github.com/scourgen/OpenClaw-CN/stargazers) [![](https://travis-ci.org/scourgen/OpenClaw-CN.svg?branch=master)](https://travis-ci.org/scourgen/OpenClaw-CN) [![](https://img.shields.io/github/release/scourgen/OpenClaw-CN.svg)](https://github.com/scourgen/OpenClaw-CN/releases)
 </div>
 
 ---
@@ -24,7 +23,7 @@
 
 - ✅ **快速上手** - 5 分钟完成 OpenClaw 配置，发送第一条消息
 - ✅ **掌握自动化** - Cron 定时任务、心跳任务、Webhooks 集成
-- ✅ **定制人设** - 丰富的 SOUL.md 模板库，打造专属 AI 助理
+- ✅ **定制人设** - 丰富的 SOUL\.md 模板库，打造专属 AI 助理
 - ✅ **实战案例** - 记账、日程管理、内容创作、竞品监控等真实场景
 - ✅ **问题解决** - FAQ 常见问题、故障排查、最佳实践
 
@@ -46,26 +45,24 @@
 - **社区驱动** — 来自真实用户的经验分享
 - **开源免费** — MIT 协议，可自由使用和修改
 
----
 
-[![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![](https://img.shields.io/github/issues/scourgen/OpenClaw-CN.svg)](https://github.com/scourgen/OpenClaw-CN/issues)  [![](https://img.shields.io/github/forks/scourgen/OpenClaw-CN.svg)](https://github.com/scourgen/OpenClaw-CN/network) [![](https://img.shields.io/github/stars/scourgen/OpenClaw-CN.svg)](https://github.com/scourgen/OpenClaw-CN/stargazers) [![](https://travis-ci.org/scourgen/OpenClaw-CN.svg?branch=master)](https://travis-ci.org/scourgen/OpenClaw-CN) [![](https://img.shields.io/github/release/scourgen/OpenClaw-CN.svg)](https://github.com/scourgen/OpenClaw-CN/releases)
 
 ---
 
 ## 基本概念
 
-### SOUL.md 配置文件
+### SOUL\.md 配置文件
 
 | 文件 | 说明 |
 |------|------|
-| `SOUL.md` | 机器人的人设 - 定义行为准则和语气风格 |
-| `USER.md` | 关于你的信息 - 姓名、偏好、语言等，让 SOUL 认识你 |
-| `MEMORY.md` | 长期记忆 - AI 应该一直记住的重要事情 |
-| `HEARTBEAT.md` | 待办清单 - AI 定期检查并自主执行的任务 |
+| SOUL\.md | 机器人的人设 - 定义行为准则和语气风格 |
+| USER\.md | 关于你的信息 - 姓名、偏好、语言等，让 SOUL 认识你 |
+| MEMORY\.md | 长期记忆 - AI 应该一直记住的重要事情 |
+| HEARTBEAT\.md | 待办清单 - AI 定期检查并自主执行的任务 |
 
-### 📚 SOUL.md 模板库
+### 📚 SOUL\.md 模板库
 
-整理了 **7 大类** 常用 SOUL.md 配置模板，涵盖个人效率、内容创作、技术支持、特殊关怀等场景：
+整理了 **7 大类** 常用 SOUL\.md 配置模板，涵盖个人效率、内容创作、技术支持、特殊关怀等场景：
 
 - 📰 **信息获取助理** - 每日新闻简报、招投标监测
 - 💙 **情绪鼓励师** - 压力管理、情绪陪伴
@@ -75,7 +72,7 @@
 - 📚 **青少年学习陪练** - 题目讲解、学习计划
 - 🏥 **特殊人群陪伴** - 老人/孕妇/病患关怀
 
-👉 **完整模板：** [docs/soul-templates.md](docs/soul-templates.md)
+👉 **完整模板：** [docs/soul-templates\.md](docs/soul-templates\.md)
 
 ---
 
@@ -87,18 +84,18 @@
 
 | 教程 | 说明 | 难度 |
 |------|------|------|
-| [快速开始指南](./tutorials/getting-started/01-quickstart.md) | 从零开始配置 OpenClaw，5 分钟上手 | ⭐ |
-| [核心功能介绍](./tutorials/getting-started/02-features.md) | 全面了解 OpenClaw 的所有功能 | ⭐ |
+| [快速开始指南](./tutorials/getting-started/01-quickstart\.md) | 从零开始配置 OpenClaw，5 分钟上手 | ⭐ |
+| [核心功能介绍](./tutorials/getting-started/02-features\.md) | 全面了解 OpenClaw 的所有功能 | ⭐ |
 
 #### 🤖 自动化系列
 
 | 教程 | 说明 | 难度 |
 |------|------|------|
-| [Cron 定时任务](./tutorials/automation/01-cron-jobs.md) | 使用 Cron 调度自动化任务，定时执行 Agent | ⭐⭐ |
+| [Cron 定时任务](./tutorials/automation/01-cron-jobs\.md) | 使用 Cron 调度自动化任务，定时执行 Agent | ⭐⭐ |
 
 #### 📖 文档索引
 
-完整的翻译文档索引：[查看文档索引](./docs/translation/README.md)
+完整的翻译文档索引：[查看文档索引](./docs/translation/README\.md)
 
 ---
 
@@ -118,18 +115,18 @@
 
 #### 🔰 新手路径（推荐顺序）
 
-1. **快速开始** → [教程 01](./tutorials/getting-started/01-quickstart.md)
+1. **快速开始** → [教程 01](./tutorials/getting-started/01-quickstart\.md)
    - 安装 OpenClaw
    - 配置认证和 Gateway
    - 打开 Control UI
    - 发送第一条消息
 
-2. **了解功能** → [教程 02](./tutorials/getting-started/02-features.md)
+2. **了解功能** → [教程 02](./tutorials/getting-started/02-features\.md)
    - 频道集成（WhatsApp、Telegram、Discord 等）
    - Agent 功能和会话管理
    - 媒体支持和移动端节点
 
-3. **自动化入门** → [Cron 定时任务](./tutorials/automation/01-cron-jobs.md)
+3. **自动化入门** → [Cron 定时任务](./tutorials/automation/01-cron-jobs\.md)
    - 创建定时任务
    - 配置每日简报
    - 设置提醒和周期性任务
@@ -225,7 +222,7 @@
 
 ### 相关项目
 
-- [OpenKita](https://github.com/openakita/openakita/blob/main/README_CN.md) - 一个你睡觉时还在变强的 AI Agent
+- [OpenKita](https://github.com/openakita/openakita/blob/main/README_CN\.md) - 一个你睡觉时还在变强的 AI Agent
 - [miniclaw](https://github.com/memovai/mimiclaw) - 纯 C 实现的类 OpenClaw，精简、小巧、省电，能跑在 30 元的 ESP32 USB 开发板上
 
 ### Vibe Coding 工具
