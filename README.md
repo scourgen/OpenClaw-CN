@@ -50,13 +50,36 @@
 
 - 搜集了大量SOUL.md 配置，[SOUL.md模板仓库](/SOUL/README.md)
 
-<!--
-### 即将推出
+### 📚 新增中文教程
 
- - **03** - XX
-- **04** - XX
-- **05** - XX
-- **06** - XX -->
+以下是最新翻译和创建的中文教程：
+
+#### 🔰 快速入门系列
+
+| 教程 | 说明 | 难度 |
+|------|------|------|
+| [快速开始指南](./tutorials/getting-started/01-quickstart.md) | 从零开始配置 OpenClaw，5 分钟上手 | ⭐ |
+| [核心功能介绍](./tutorials/getting-started/02-features.md) | 全面了解 OpenClaw 的所有功能 | ⭐ |
+
+#### 🤖 自动化系列
+
+| 教程 | 说明 | 难度 |
+|------|------|------|
+| [Cron 定时任务](./tutorials/automation/01-cron-jobs.md) | 使用 Cron 调度自动化任务，定时执行 Agent | ⭐⭐ |
+
+#### 📖 文档索引
+
+完整的翻译文档索引：[查看文档索引](./docs/translation/README.md)
+
+---
+
+### 🆕 即将推出
+
+- [ ] Heartbeat 心跳任务教程
+- [ ] Webhooks 集成指南
+- [ ] WhatsApp/Telegram/Discord频道配置
+- [ ] 多 Agent 路由配置
+- [ ] 移动端节点设置
 
 ---
 
@@ -66,11 +89,21 @@
 
 #### 🔰 新手路径（推荐顺序）
 
-<!-- 1. **从文档技巧开始** → [教程01](./tutorials/01-xx)
-   - xx
+1. **快速开始** → [教程 01](./tutorials/getting-started/01-quickstart.md)
+   - 安装 OpenClaw
+   - 配置认证和 Gateway
+   - 打开 Control UI
+   - 发送第一条消息
 
-2. **探索GitHub工具** → [教程02](./tutorials/02-xx/)
-   - xx -->
+2. **了解功能** → [教程 02](./tutorials/getting-started/02-features.md)
+   - 频道集成（WhatsApp、Telegram、Discord 等）
+   - Agent 功能和会话管理
+   - 媒体支持和移动端节点
+
+3. **自动化入门** → [Cron 定时任务](./tutorials/automation/01-cron-jobs.md)
+   - 创建定时任务
+   - 配置每日简报
+   - 设置提醒和周期性任务
 
 #### 💼 进阶路径（按需选择）
 
