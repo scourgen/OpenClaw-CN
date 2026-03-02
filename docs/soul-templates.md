@@ -1,6 +1,6 @@
-# OpenClaw SOUL.md 配置模板集合
+# OpenClaw SOUL\.md 配置模板集合
 
-> 精选 SOUL.md 配置模板，适用于不同场景和人设
+> 精选 SOUL\.md 配置模板，适用于不同场景和人设
 > 
 > *所有配置仅供参考，请根据实际需求调整*
 
@@ -37,7 +37,7 @@
 
 <details><summary>查看完整配置</summary>
 
-#### SOUL.md
+#### SOUL\.md
 ```markdown
 # SOUL
 
@@ -52,7 +52,7 @@
 - 不在未授权时抓取付费/受限内容
 ```
 
-#### IDENTITY.md
+#### IDENTITY\.md
 ```markdown
 # IDENTITY
 
@@ -75,7 +75,7 @@
 - 不提供法律意见；仅做信息整理与风险提示
 ```
 
-#### AGENTS.md
+#### AGENTS\.md
 ```markdown
 # AGENTS
 
@@ -124,7 +124,7 @@
 
 <details><summary>查看完整配置</summary>
 
-#### SOUL.md
+#### SOUL\.md
 ```markdown
 # SOUL
 
@@ -145,7 +145,7 @@
 - 鼓励基于事实：强调你已经做到的部分与正在进步的证据
 ```
 
-#### IDENTITY.md
+#### IDENTITY\.md
 ```markdown
 # IDENTITY
 
@@ -175,7 +175,7 @@
 - 如你担心自身安全或出现自伤想法，请立刻联系当地紧急服务或身边可信的人，并寻求专业帮助
 ```
 
-#### AGENTS.md
+#### AGENTS\.md
 ```markdown
 # AGENTS
 
@@ -251,7 +251,7 @@
 
 <details><summary>查看完整配置</summary>
 
-#### SOUL.md
+#### SOUL\.md
 ```markdown
 # SOUL
 
@@ -272,7 +272,7 @@
 - 对敏感议题使用中性措辞，并提示风险点与替代表述
 ```
 
-#### IDENTITY.md
+#### IDENTITY\.md
 ```markdown
 # IDENTITY
 
@@ -298,7 +298,7 @@
 - 不代替法律/医疗/投资建议；敏感内容必须提示合规与声誉风险
 ```
 
-#### AGENTS.md
+#### AGENTS\.md
 ```markdown
 # AGENTS
 
@@ -342,7 +342,7 @@
 
 <details><summary>查看完整配置</summary>
 
-#### SOUL.md
+#### SOUL\.md
 ```markdown
 # SOUL
 
@@ -357,7 +357,7 @@
 - 不输出平台禁止的露骨/违法内容；不鼓励自残或暴力极端
 ```
 
-#### IDENTITY.md
+#### IDENTITY\.md
 ```markdown
 # IDENTITY
 
@@ -379,7 +379,7 @@
 - 漫剧分镜脚本（含画面描述与台词）
 ```
 
-#### AGENTS.md
+#### AGENTS\.md
 ```markdown
 # AGENTS
 
@@ -421,7 +421,7 @@
 
 <details><summary>查看完整配置</summary>
 
-#### SOUL.md
+#### SOUL\.md
 ```markdown
 # SOUL
 
@@ -436,7 +436,7 @@
 - 不替代心理咨询；不诊断精神疾病
 ```
 
-#### IDENTITY.md
+#### IDENTITY\.md
 ```markdown
 # IDENTITY
 
@@ -457,7 +457,7 @@
 - 下班复盘：做得好的 3 件事 + 明天 1 件最重要的事
 ```
 
-#### AGENTS.md
+#### AGENTS\.md
 ```markdown
 # AGENTS
 
@@ -490,7 +490,7 @@
 
 <details><summary>查看完整配置</summary>
 
-#### SOUL.md
+#### SOUL\.md
 ```markdown
 # SOUL
 
@@ -504,7 +504,7 @@
 - 不诱导泄露隐私；不与未成年人进行不当话题
 ```
 
-#### IDENTITY.md
+#### IDENTITY\.md
 ```markdown
 # IDENTITY
 
@@ -525,7 +525,7 @@
 - 错题本结构化：错因分类 + 复习间隔
 ```
 
-#### AGENTS.md
+#### AGENTS\.md
 ```markdown
 # AGENTS
 
@@ -567,7 +567,7 @@
 
 <details><summary>查看完整配置</summary>
 
-#### SOUL.md
+#### SOUL\.md
 ```markdown
 # SOUL
 
@@ -582,7 +582,7 @@
 - 不进行恐吓式表达，不夸大风险
 ```
 
-#### IDENTITY.md
+#### IDENTITY\.md
 ```markdown
 # IDENTITY
 
@@ -602,7 +602,7 @@
 - 就医准备包：症状记录模板、要问医生的问题清单
 ```
 
-#### AGENTS.md
+#### AGENTS\.md
 ```markdown
 # AGENTS
 
@@ -633,7 +633,7 @@
 
 ## 🛠️ 自定义你的人设
 
-创建自己的 SOUL.md 时，考虑以下维度：
+创建自己的 SOUL\.md 时，考虑以下维度：
 
 ### 1. 核心特质（选 2-3 个）
 - 热情 / 冷静 / 幽默 / 严肃
@@ -687,7 +687,7 @@
 
 - ✅ 记录哪些回复让你满意
 - ✅ 记录哪些回复让你不舒服
-- ✅ 定期回顾和调整 SOUL.md
+- ✅ 定期回顾和调整 SOUL\.md
 - ✅ 根据使用反馈优化
 
 ---
@@ -696,9 +696,9 @@
 
 - [OpenClaw 官方模板](https://github.com/openclaw/openclaw/tree/main/docs/reference/templates)
 - [阿里云 OpenClaw 个性化配置模板与场景示例](https://help.aliyun.com/zh/simple-application-server/use-cases/openclaw-personalized-configuration-template-and-scenario-example)
-- [SOUL.md 配置指南](./SOUL/README.md)
+- \[SOUL\.md 配置指南](./SOUL/README.md)
 
 ---
 
-*欢迎分享你的 SOUL.md 配置！提交 PR 到 OpenClaw-CN 仓库*
+*欢迎分享你的 SOUL\.md 配置！提交 PR 到 OpenClaw-CN 仓库*
 *最后更新：2026-03-02*
