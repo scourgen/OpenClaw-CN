@@ -41,8 +41,12 @@
 
 **A:** OpenClaw 支持多种模型 API：
 
+**最新版本**: 2026.2.23（2026 年 3 月发布）
+
+**安全提示**: 此版本包含关键安全补丁，修复了 WebSocket 劫持漏洞 (CVE-2026-25253)，强烈建议更新！
+
 **推荐的 Coding Plan 套餐（成本可控）：**
-- 支持模型：qwen3.5-plus、kimi-k2.5、MiniMax-M2.5、glm-5
+- 支持模型：qwen3.5-plus、kimi-k2.5、MiniMax-M2.5-highspeed、glm-5
 - 计费方式：固定月费，超出限额不计费
 - 配置方法：
 ```bash
@@ -161,6 +165,13 @@ openclaw config set llm.model "qwen3.5-plus"
 
 **A:** OpenClaw CN 社区版支持多种中国企业级平台集成：
 
+**最新更新 (2026.2.23)**: OpenClaw 现在支持 **10+ 消息平台** simultaneously!
+
+**支持的平台**:
+- **国际平台**: WhatsApp, Telegram, Discord, Slack, Signal, iMessage
+- **国内平台**: 企业微信，飞书，钉钉，微信公众号，微信小程序
+- **其他**: Google Chat, Microsoft Teams, Matrix, Zalo, WebChat
+
 **企业微信集成：**
 1. 登录 [企业微信开放平台](https://work.weixin.qq.com/)
 2. 创建自建应用，获取 AgentId 和 Secret
@@ -197,6 +208,60 @@ openclaw config set channels.wechat-official.aesKey "your-aes-key"
 - 详见：[微信小程序集成指南](./channels/wechat-miniprogram.md)
 
 **注意：** 以上功能正在积极开发中，部分功能可能需要等待后续版本发布。
+
+---
+
+### Q6.6: 如何更新 OpenClaw 到最新版本？
+
+**A:** 最新版本是 **2026.2.23**（2026 年 3 月发布），包含关键安全补丁！
+
+**重要安全更新**:
+- 🔒 修复 WebSocket 劫持漏洞 (CVE-2026-25253)
+- 🔒 增强 MCP (Model Context Protocol) 风险缓解
+- 🔒 改进 prompt injection 保护
+- 🔒 安全加固文档和最佳实践
+
+**更新步骤**:
+
+1. **检查当前版本**
+   ```bash
+   openclaw --version
+   ```
+
+2. **使用 npm 更新**
+   ```bash
+   npm update -g openclaw@latest
+   ```
+   
+   **或使用安装脚本**:
+   ```bash
+   curl -fsSL https://openclaw.ai/install.sh | bash
+   ```
+
+3. **重启 daemon**
+   ```bash
+   openclaw daemon restart
+   ```
+
+4. **验证更新**
+   ```bash
+   openclaw --version
+   openclaw gateway status
+   ```
+
+**新增功能 (2026.2.23)**:
+- ✅ SecretRef 支持扩展到 64 个目标
+- ✅ PDF 分析工具（原生支持 Anthropic 和 Google）
+- ✅ MiniMax-M2.5-highspeed 模型支持
+- ✅ Telegram streaming 默认开启
+- ✅ CLI config 验证 (`openclaw config validate`)
+- ✅ Ollama embeddings 支持
+- ✅ Zalo Personal plugin 重构
+
+**保持更新**:
+- Watch GitHub repo: [github.com/openclaw/openclaw](https://github.com/openclaw/openclaw)
+- 关注创作者: [@steipete](https://x.com/steipete) on X/Twitter
+- 加入社区讨论: GitHub Discussions
 
 ---
 
