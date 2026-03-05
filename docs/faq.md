@@ -157,6 +157,49 @@ openclaw config set llm.model "qwen3.5-plus"
 
 ---
 
+### Q6.5: 如何配置企业微信/钉钉/微信公众号集成？
+
+**A:** OpenClaw CN 社区版支持多种中国企业级平台集成：
+
+**企业微信集成：**
+1. 登录 [企业微信开放平台](https://work.weixin.qq.com/)
+2. 创建自建应用，获取 AgentId 和 Secret
+3. 配置接收消息服务器 URL
+4. 在 OpenClaw 配置：
+```bash
+openclaw config set channels.wechatwork.agentId "your-agent-id"
+openclaw config set channels.wechatwork.secret "your-secret"
+openclaw config set channels.wechatwork.corpId "your-corp-id"
+```
+
+**钉钉集成：**
+1. 登录 [钉钉开放平台](https://open.dingtalk.com/)
+2. 创建机器人应用，获取 AppKey 和 AppSecret
+3. 配置消息接收地址
+4. 在 OpenClaw 配置：
+```bash
+openclaw config set channels.dingtalk.appKey "your-appkey"
+openclaw config set channels.dingtalk.appSecret "your-appsecret"
+```
+
+**微信公众号集成：**
+1. 登录 [微信公众平台](https://mp.weixin.qq.com/)
+2. 配置服务器配置（URL、Token、EncodingAESKey）
+3. 在 OpenClaw 配置：
+```bash
+openclaw config set channels.wechat-official.token "your-token"
+openclaw config set channels.wechat-official.aesKey "your-aes-key"
+```
+
+**微信小程序集成：**
+- 在小程序中接入客服消息功能
+- 通过云开发或后端对接 OpenClaw
+- 详见：[微信小程序集成指南](./channels/wechat-miniprogram.md)
+
+**注意：** 以上功能正在积极开发中，部分功能可能需要等待后续版本发布。
+
+---
+
 ## 🤖 自动化与技能
 
 ### Q7: Cron 和 Heartbeat 有什么区别？

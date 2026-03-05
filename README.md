@@ -191,15 +191,21 @@
 
 | 模型 | 厂商 | 一句话 | 购买链接 | 推荐程度 |
 |------|------|------|-----|-----|
-| `qwen3.5-plus` | 阿里通义 | 开源模型国产首选，中文能力强 | [首月 7.9 元起](https://www.aliyun.com/benefit/ai/aistar?clubBiz=subTask..12408319..10263..) | 🌟🌟🌟🌟🌟 |
-| `GLM-v5` | 智谱 AI | 高性价比之选 | [49 元/月起](https://www.bigmodel.cn/glm-coding?ic=KY1ACMPOVX) | 🌟🌟🌟🌟 |
-| `kimi-k2.5` | 月之暗面 | 超长上下文 | | 🌟🌟🌟 |
-| `minimax-m2.1` | MiniMax | 对话创作出色 | | 🌟🌟🌟 |
-| `claude-sonnet-4-6` | Anthropic | 性能均衡 | claude.ai | 🌟🌟🌟 |
-| `claude-opus-4-6` | Anthropic | 旗舰能力最强 | | 🌟🌟🌟 |
-| `deepseek-v3` | DeepSeek | 高性价比之选 | | 🌟🌟 |
+| `qwen3.5-plus` | 阿里通义 | 开源模型国产首选，中文能力强，性价比之王 | [首月 7.9 元起](https://www.aliyun.com/benefit/ai/aistar?clubBiz=subTask..12408319..10263..) | 🌟🌟🌟🌟🌟 |
+| `GLM-v5` | 智谱 AI | 高性价比之选，长文本处理优秀 | [49 元/月起](https://www.bigmodel.cn/glm-coding?ic=KY1ACMPOVX) | 🌟🌟🌟🌟 |
+| `kimi-k2.5` | 月之暗面 | 超长上下文，适合文档分析 | [Coding Plan](https://kimi.moonshot.cn/) | 🌟🌟🌟 |
+| `minimax-m2.5` | MiniMax | 对话创作出色，角色扮演强 | [Coding Plan](https://platform.minimaxi.com/) | 🌟🌟🌟 |
+| `deepseek-v3` | DeepSeek | 代码能力突出，开源友好 | [官网](https://deepseek.com/) | 🌟🌟🌟 |
+| `豆包 1.5 Pro` | 字节跳动 | 企业级应用首选，集成简单 | [官网](https://www.doubao.com/) | 🌟🌟🌟🌟 |
+| `claude-sonnet-4-5` | Anthropic | 性能均衡，国际任务首选 | claude.ai | 🌟🌟🌟 |
 
-> 注意：推荐程度仅为个人评价，仅供参考
+**CN 社区版特色：**
+- ✅ 原生支持 DeepSeek / Qwen / 豆包等国产模型
+- ✅ 预配置 npmmirror 国内镜像，安装不卡顿
+- ✅ 强制使用 pnpm，构建速度提升 10 倍
+- ✅ 核心代码人工审计，无后门风险
+
+> 注意：推荐程度仅为个人评价，仅供参考。建议先使用 Coding Plan 套餐控制成本。
 
 ### 官方资源
 
