@@ -112,3 +112,25 @@
 ---
 
 *最后更新：2026-03-05 11:49 UTC*
+
+---
+
+### 2026-03-06 12:54 UTC
+- **执行类型**: 创建 PR - 各地区 OpenClaw 活动汇总
+- **执行状态**: ✅ 完成
+- **分支**: `feature/regional-activities-summary`
+- **新增内容**:
+  - 新增文档：`content/regional-activities.md` - 各地区 OpenClaw 活动汇总
+  - 更新文档：`README.md` - 添加地区活动资源链接
+- **主要内容**:
+  - 🦞 三万同款团队技能包详情（14 天 8 个 Agent 团队，40+ Skill）
+  - 🌏 区域活动中心框架（北京、上海、深圳、杭州、成都）
+  - 📅 活动日历模板
+  - 🏆 优秀案例展示
+  - 🤝 参与指南（发起活动、贡献案例、技能开发）
+- **来源**: https://sanwan.ai/skills/pack-sanwan.html
+- **提交 commit**: pending
+
+**备注**: 欢迎各城市社区贡献者补充本地活动信息
+
+---

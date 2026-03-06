@@ -221,6 +221,10 @@
 
 ### 学习资源
 
+#### 🌏 地区活动
+  - **[各地区 OpenClaw 活动汇总](./content/regional-activities.md)** - 汇总全国各城市 OpenClaw 社区活动、技能包和实战案例
+  - **三万同款团队** - 14 天从 1 只龙虾裂变成 8 个 Agent 团队，公众号 6 篇文章篇篇 10 万+ [技能包详情](https://sanwan.ai/skills/pack-sanwan.html)
+
 #### 📚 精选教程与案例
   - **Awesome OpenClaw Usecases** 社区精选 34+ 实战案例：Reddit 摘要、YouTube 每日简报、X 账号分析等 [GitHub](https://github.com/hesamsheikh/awesome-openclaw-usecases)
   - **Awesome OpenClaw Tutorial** 29 万字中文教程，70+ 案例，57+ 截图，7 天学习路径 [GitHub](https://github.com/xianyu110/awesome-openclaw-tutorial)
