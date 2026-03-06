@@ -237,6 +237,8 @@
 
 - [OpenKita](https://github.com/openakita/openakita/blob/main/README_CN\.md) - 一个你睡觉时还在变强的 AI Agent
 - [miniclaw](https://github.com/memovai/mimiclaw) - 纯 C 实现的类 OpenClaw，精简、小巧、省电，能跑在 30 元的 ESP32 USB 开发板上
+- [TuriX](https://github.com/TurixAI/TuriX-CUA/blob/main/README.zh-CN.md) - 让你的OpenClaw能够操作桌面
+- [Agent S](https://www.zdoc.app/zh/simular-ai/Agent-S) - 让你的OpenClaw能够操作桌面
 
 ### Vibe Coding 工具
 
@@ -256,17 +258,56 @@
 #### 北京
 
 - 3月4日 OpenClaw碰撞场，五道口，https://www.xiaohongshu.com/explore/69a8435a000000001a02271a
+- 3月6日，OpenClaw黑客松技术交流会，尚东数字山谷·数字智能青创中心 数钱咖啡，https://mp.weixin.qq.com/s/uoVfJWFf2oikWy6A2D1ImA
+- 3月7日，SeeAI首届OpenClaw挑战赛，原点学堂东升大厦A座，https://mp.weixin.qq.com/s/9dlqjE_6pyoV5ltaC9iBmQ
+- 3月7日，OPENCLAW 进化大会，北京市朝阳区，
+- 3月7日-8日，昆仑巢OpenClaw周末黑客松，融科.昆仑巢，https://mp.weixin.qq.com/s/u5AAbB2anUkcE78OYA6SXA
+- 3月14日，OpenClaw Weekly Meetup，朝阳区，https://mp.weixin.qq.com/s/UL80akANNY-3Q-5VIA49Jw
+- 4月11日，首届Lance Meetup 2026 · 北京站，https://mp.weixin.qq.com/s/TD0Ym-Rdh1AKFmdS5PDdaQ
 
 #### 上海
 
 - 3月1日，OpenClaw iPollo Web 4.0 中国行，陆家嘴滨江中心T1座5楼，https://www.xiaohongshu.com/explore/69a441ca0000000028023505
+- 3月5日，OpenClaw 玩法交流会，新华里巷社区营造中心
 - 3月7日，上海Openclaw行业聚会，漕河泾，https://www.xiaohongshu.com/explore/698737d3000000000b00bd32
 - 3月7日，OpenClawx/AI入门活动，陆家嘴，https://www.xiaohongshu.com/explore/69a6baa90000000026032d49
+- 3月7日，OpenClaw 傻小福公益AI大课堂，松江区广富林路，https://mp.weixin.qq.com/s/kMQ-7lv0F2PI2QRCCGNB-w
+- 3月8日，OpenClaw 上海开发者派对，上海市杨浦区，https://mp.weixin.qq.com/s/47YNGbBJHFWoCxPxzCGGdw
 - 3月8日，OpenClaw Vibe Codding，五角场，https://www.xiaohongshu.com/explore/69a4fd1e00000000150387eb
 - 3月15日，第一届龙虾大会 OpenClaw实战日，上海徐汇区龙台路199号模速空间B区三楼多功能厅，https://mp.weixin.qq.com/s/1KZC3JgFIGu-YERBQv2mow
 
 #### 深圳
-- 3月6日在腾讯大厦楼下，腾讯的工程师帮你进行云端OpenClaw安装 https://finance.sina.cn/stock/jdts/2026-03-06/detail-inhqahae2433351.d.html?vt=4&cid=76993&node_id=76993
+
+- 3月6日，腾讯大厦楼下，腾讯的工程师帮你进行云端OpenClaw安装 https://finance.sina.cn/stock/jdts/2026-03-06/detail-inhqahae2433351.d.html?vt=4&cid=76993&node_id=76993
+- 3月6日， OpenClaw & AI Hardware，深圳，
+- 3月7日，Openclaw 深圳养龙虾活动，深圳福田皇庭广场R层 CTI PARK中轴顶上，https://mp.weixin.qq.com/s/3rx78IosrcdWB1ZPh9vQXg
+- 3月7日，OpenClaw 龙虾聚会·深圳（Luma 专场），深圳市南山区
+- 3月7日，OpenClaw Meetup，深圳福田会展中心附近
+- 3月8日，OpenClaw一人公司训练营，深圳坪山，https://mp.weixin.qq.com/s/kY0oxYEdcextJdXcSz1VQQ
+
+#### 杭州
+
+- 3月6日，杭州 OpenClaw 硬核派对
+- 3月7日，OpenClaw DEVELOPER NIGHT “龙虾之夜”杭州站，杭州市西湖区云谷福地中心南楼 8 楼
+- 3月8日，打造智能体企业 x OpenClaw（面向 CXO），杭州
+- 3月8日，小龙虾家长会（启师傅 AI 客厅 Demo Day vol.14），杭州市每日金座南楼一楼大报告厅
+- 3月14日，龙虾OpenClaw实操之夜，城西银泰附近Record cafe，https://mp.weixin.qq.com/s/Q1dpmPBQcjqPP6WEEhHI5w
+
+#### 广州
+
+- 3月14日，Startupgrind OpenClaw 商业应用交流活动
+
+#### 成都
+
+- 3月8日，成都 OpenClaw Meetup，
+
+#### 苏州
+
+- 3月8日，Open Claw云端部署线下交流会·龙虾班，苏州创业园1号楼一楼路演厅，https://mp.weixin.qq.com/s/YW1nwGCr5-MMqIvutEHgCA
+
+#### 长沙
+
+- 3月7日，「钳」力无限 · 开抓未来，世界计算·长沙智谷  AQ5栋，https://mp.weixin.qq.com/s/qMQXBrePP9dh0EZindyAcA
 
 ---
 
