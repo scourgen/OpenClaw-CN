@@ -263,11 +263,10 @@
 - 3月7日，上海Openclaw行业聚会，漕河泾，https://www.xiaohongshu.com/explore/698737d3000000000b00bd32
 - 3月7日，OpenClawx/AI入门活动，陆家嘴，https://www.xiaohongshu.com/explore/69a6baa90000000026032d49
 - 3月8日，OpenClaw Vibe Codding，五角场，https://www.xiaohongshu.com/explore/69a4fd1e00000000150387eb
+- 3月15日，第一届龙虾大会 OpenClaw实战日，上海徐汇区龙台路199号模速空间B区三楼多功能厅，https://mp.weixin.qq.com/s/1KZC3JgFIGu-YERBQv2mow
 
 #### 深圳
-- 3月6日在腾讯大厦楼下，腾讯的工程师帮你进行云端OpenClaw安装
-- 上海Openclaw行业聚会 3.7
-
+- 3月6日在腾讯大厦楼下，腾讯的工程师帮你进行云端OpenClaw安装 https://finance.sina.cn/stock/jdts/2026-03-06/detail-inhqahae2433351.d.html?vt=4&cid=76993&node_id=76993
 
 ---
 
