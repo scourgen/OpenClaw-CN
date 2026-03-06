@@ -216,6 +216,7 @@
 ### 学习资源
 
 #### 📚 精选教程与案例
+  - **龙虾养成日记** 猎豹移动CEO傅盛的OpenClaw使用日记，包含案例和技能仓库  https://sanwan.ai/
   - **Awesome OpenClaw Usecases** 社区精选 34+ 实战案例：Reddit 摘要、YouTube 每日简报、X 账号分析等 [GitHub](https://github.com/hesamsheikh/awesome-openclaw-usecases)
   - **Awesome OpenClaw Tutorial** 29 万字中文教程，70+ 案例，57+ 截图，7 天学习路径 [GitHub](https://github.com/xianyu110/awesome-openclaw-tutorial)
   - **OpenClaw Showcase** 官方真实案例：邮件管理、日历同步、智能提醒、自动创建 Issue 等 [Showcase](https://openclaw.ai/showcase)
@@ -247,6 +248,26 @@
 ## 📖 推荐阅读
 
 - [Jason Zhang 的个人博客](https://junxinzhang.com/) - 讲了许多使用 OpenClaw 的经验和个人体会
+
+---
+
+### 线下活动
+
+#### 北京
+
+- 3月4日 OpenClaw碰撞场，五道口，https://www.xiaohongshu.com/explore/69a8435a000000001a02271a
+
+#### 上海
+
+- 3月1日，OpenClaw iPollo Web 4.0 中国行，陆家嘴滨江中心T1座5楼，https://www.xiaohongshu.com/explore/69a441ca0000000028023505
+- 3月7日，上海Openclaw行业聚会，漕河泾，https://www.xiaohongshu.com/explore/698737d3000000000b00bd32
+- 3月7日，OpenClawx/AI入门活动，陆家嘴，https://www.xiaohongshu.com/explore/69a6baa90000000026032d49
+- 3月8日，OpenClaw Vibe Codding，五角场，https://www.xiaohongshu.com/explore/69a4fd1e00000000150387eb
+
+#### 深圳
+- 3月6日在腾讯大厦楼下，腾讯的工程师帮你进行云端OpenClaw安装
+- 上海Openclaw行业聚会 3.7
+
 
 ---
 
